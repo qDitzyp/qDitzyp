@@ -1,4 +1,4 @@
-#About me
+# About me
 
 Hello! My name is Veronica Strunks :3
 
