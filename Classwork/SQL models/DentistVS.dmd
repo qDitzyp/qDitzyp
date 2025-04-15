@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DentistVS" id="8DA1ECBE-3845-D60D-2F42-010DE8276811" version="3.5">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:27:04 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8DA1ECBE-3845-D60D-2F42-010DE8276811</designId>
+</OSDM_Design>

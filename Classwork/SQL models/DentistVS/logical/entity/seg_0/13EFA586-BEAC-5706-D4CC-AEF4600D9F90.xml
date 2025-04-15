@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13EFA586-BEAC-5706-D4CC-AEF4600D9F90" name="Procedure">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:28:39 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ADA" id="04D38C42-DF32-2CB9-7A0D-B2B927C0D2D1">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:49:09 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7662F8F5-8DD7-E06D-BC78-C866C5CAFFF0" name="Procedure PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:49:38 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04D38C42-DF32-2CB9-7A0D-B2B927C0D2D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E31797B4-60ED-326B-0171-84B4C8C656E7" name="FinalCost">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:39:47 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TransID" id="1F28D6FC-23B6-E114-EEE2-B34F60C045F9">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:49:11 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContractorID" id="1230EE7F-D3DE-5147-C0AE-98FD8B7B01F3">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:59:11 UTC</createdTime>
+<generatorID>FB7F5A49-DB77-B6C9-7AB5-D3C55295CC39</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>5001495F-2631-407C-1B97-4C418DCD258B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="6E9D9CEF-097B-30D1-516F-9AEA6A72114D">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:00:24 UTC</createdTime>
+<generatorID>4101C3E8-9847-421F-19EE-C3A1DB2CDD67</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>0EFFDC58-3411-FA3E-A4B6-69FB087C0732</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmpID1" id="D51AAC34-7E73-6D2C-E209-61C5EBFD7E0F">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:12:54 UTC</createdTime>
+<generatorID>7A7A71F9-A71B-1808-7715-D967434F8E8D</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>82AEB7C6-5FA2-134A-80B9-A7DA41BB99F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF7EE19C-4F4F-F3A8-08FD-17010A18C85E" name="Final PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:49:29 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F28D6FC-23B6-E114-EEE2-B34F60C045F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

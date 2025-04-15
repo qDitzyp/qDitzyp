@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FA5C481-A154-E3C0-1F88-354701BB8133" name="Checkout">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:27:53 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DID" id="F50966FD-2DF9-83C8-833A-ED2F92784B3C">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:38:31 UTC</createdTime>
+<generatorID>B7C74A9C-1EC4-9911-A5CD-6D527C5BDA23</generatorID>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<referedAttribute>FAA568B3-795B-0B6F-61AA-CF8E9E9F41AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PID" id="14518826-73B8-B513-EF39-8F07168D03E9">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:48:13 UTC</createdTime>
+<generatorID>375301B9-F7B2-9FB3-2A6E-76F9EF4E2F8F</generatorID>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<referedAttribute>524E2153-11EE-EA0A-E036-759D76FE07C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADA" id="7FF8E733-5910-FADC-5795-35413659B7AE">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:49:40 UTC</createdTime>
+<generatorID>BB086BA3-2263-D59C-A9C1-B4141A81E09F</generatorID>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<referedAttribute>04D38C42-DF32-2CB9-7A0D-B2B927C0D2D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TID" id="C3AED796-D0A5-1217-73CB-FC1CF81E0DB4">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:53:03 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20F75D26-170A-1895-8D64-387AD35754C0" name="Checkout PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:53:35 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3AED796-D0A5-1217-73CB-FC1CF81E0DB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

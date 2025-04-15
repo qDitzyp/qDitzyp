@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53A67529-E573-60C5-A8C0-BCDA67332264" name="Responsible party">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:28:50 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RID" id="875EA374-92EC-456B-03E3-B9C5EE683483">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:48:24 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="9E4A053F-EA89-135B-40C5-75A5AD476650">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:49:50 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="B9911385-64EB-9255-6EBD-D6DC5F1778CF">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:50:06 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="DAFE97B3-7801-616E-9F70-C27806EF0FDB">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:50:27 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="188F7B34-BAF4-B01B-0C1D-BA1D372BACD5">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:51:03 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="DE4394C6-1B68-02EF-128B-64A8DC23EC1D">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:51:19 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip" id="4DB7E7AC-32FD-8FAF-9AE0-B970748E09E6">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:51:43 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bal" id="349712C3-E1D4-1492-B179-8C0CD17A9294">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:52:11 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1433C293-5126-A908-DFBF-E5256077BCF2" name="Responsible party PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-13 13:48:42 UTC</createdTime>
+<ownerDesignName>DentistVS</ownerDesignName>
+<engineerTo>
+<item key="21A8BAF8-9207-68EE-9311-2993974A28E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>875EA374-92EC-456B-03E3-B9C5EE683483</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

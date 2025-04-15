@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2E13D33-12DE-5756-684F-A97C668FF758" name="Customer">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:39:30 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="0EFFDC58-3411-FA3E-A4B6-69FB087C0732">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:51:22 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastName" id="27E45214-43B0-D6BD-EF11-A1EE5D8E34D8">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:54:47 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firstName" id="55254469-DCBB-5E1C-16C4-B2762B0ACD3D">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:58:56 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TransID" id="4F7EDFD5-5C83-0260-3849-52AE9C3E8F6A">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:00:29 UTC</createdTime>
+<generatorID>4101C3E8-9847-421F-19EE-C3A1DB2CDD67</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>1F28D6FC-23B6-E114-EEE2-B34F60C045F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EID" id="0E809B55-E01E-E98C-289B-B37EBA819E81">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:05:48 UTC</createdTime>
+<generatorID>639A6CD8-B9D2-D4B5-5A0D-2CFFBE6340BA</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>2D99B893-DB81-7663-0D90-24FBCF9CD68C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="3F3D8D50-D475-4040-C3E7-684920D2FA9C">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:18:12 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD194168-B7AF-7B97-24B3-2F2469F658B4" name="Customer PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:51:36 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EFFDC58-3411-FA3E-A4B6-69FB087C0732</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

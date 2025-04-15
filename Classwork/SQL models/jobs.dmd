@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="jobs" id="6A73E34B-0996-13CB-2205-F90BECECC89B" version="3.5">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 18:36:00 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6A73E34B-0996-13CB-2205-F90BECECC89B</designId>
+</OSDM_Design>

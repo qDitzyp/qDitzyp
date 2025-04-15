@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E391C86-FB76-68D4-3790-096A84FB835D" name="Activity">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:13:56 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Activity ID" id="3A0E70C5-A253-41C6-D00C-9AA2FE31F9DC">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:14:09 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobID" id="CC89DA4A-C307-43F3-9E9B-AFC5BB168CF6">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:32:20 UTC</createdTime>
+<generatorID>A824F7DB-E9B6-C7E5-7213-57203AD092D2</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>04E68DC7-708C-D13C-7C13-9F8DBD3459E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EmpID" id="A1FB8DE6-DCDE-28EA-5250-EA5B67678FE1">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:32:20 UTC</createdTime>
+<generatorID>A824F7DB-E9B6-C7E5-7213-57203AD092D2</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>C1FAFF09-9031-D04F-8906-C8A475AC6659</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ContractorID" id="A2EBE206-6D7E-F26E-D67F-5CBE8C632357">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:38:14 UTC</createdTime>
+<generatorID>6FEA019F-D4AD-EDAB-8680-A3EB5C0E7715</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>5001495F-2631-407C-1B97-4C418DCD258B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CustomerID" id="A95E7B00-48F9-E989-9C17-2F38A4C379E6">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 20:30:30 UTC</createdTime>
+<generatorID>A824F7DB-E9B6-C7E5-7213-57203AD092D2</generatorID>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<referedAttribute>1EE1FC27-B796-71C6-EDD3-36B9CC0C085A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B21CC07-9ABA-187D-BF8C-E108CE39EB25" name="Activity PK">
+<createdBy>bendr</createdBy>
+<createdTime>2024-09-25 19:14:51 UTC</createdTime>
+<ownerDesignName>jobs</ownerDesignName>
+<engineerTo>
+<item key="FAE08DBC-4090-91FB-7CE0-218E1C5F4A43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A0E70C5-A253-41C6-D00C-9AA2FE31F9DC</attributeRef>
+<attributeRef>CC89DA4A-C307-43F3-9E9B-AFC5BB168CF6</attributeRef>
+<attributeRef>A1FB8DE6-DCDE-28EA-5250-EA5B67678FE1</attributeRef>
+<attributeRef>A95E7B00-48F9-E989-9C17-2F38A4C379E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
