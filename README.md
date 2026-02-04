@@ -1,6 +1,6 @@
 ## About me
 
-Hello! My name is Veronica Strunks :3
+Hello! My name is Veronica West :3
 
 I'm currently attending wright state for computer science
 
